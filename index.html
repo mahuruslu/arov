@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AROV — motorcycle ride recorder</title>
+<meta name="description" content="AROV records your motorcycle rides from the mount: speed, corners and how far you lean, with a summary waiting when you stop.">
+<meta name="theme-color" content="#0B0D0C">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top gutter">
+  <div class="inner">
+    <a class="word" href="./">ARO<i>V</i></a>
+    <nav><a href="#ride">Features</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero gutter">
+    <div class="inner">
+      <div>
+        <p class="eyebrow">Motorcycle ride recorder · iPhone</p>
+        <h1>How far did you lean?</h1>
+        <p class="lede">AROV measures every corner from the phone in your mount, and tells you when the ride is over.</p>
+        <div class="cta">
+          <span class="pill go">Coming to the App Store</span>
+          <small>For iPhone. You need a handlebar mount.</small>
+        </div>
+      </div>
+      <div class="dial" role="img" aria-label="A lean angle gauge reading 47 degrees">
+        <svg viewBox="0 0 400 244" aria-hidden="true">
+          <path d="M40 200 A160 160 0 0 1 360 200" stroke="#2A312D" stroke-width="18" fill="none" stroke-linecap="round"/>
+          <path d="M200 40 A160 160 0 0 1 331 108" stroke="#C8FF57" stroke-width="18" fill="none" stroke-linecap="round"/>
+          <g stroke="#3A433D" stroke-width="2" stroke-linecap="round">
+            <line x1="200" y1="20" x2="200" y2="10"/><line x1="290" y1="44" x2="295" y2="35"/><line x1="356" y1="110" x2="365" y2="105"/>
+            <line x1="110" y1="44" x2="105" y2="35"/><line x1="44" y1="110" x2="35" y2="105"/>
+          </g>
+          <g fill="#8E9A92" font-size="13" font-family="Montserrat, sans-serif" text-anchor="middle">
+            <text x="40" y="232">60°</text><text x="360" y="232">60°</text>
+          </g>
+          <g class="needle"><line x1="200" y1="200" x2="200" y2="58" stroke="#F2F5EF" stroke-width="4" stroke-linecap="round"/></g>
+          <circle cx="200" cy="200" r="9" fill="#F2F5EF"/>
+        </svg>
+        <div class="read"><b>47<sup>°</sup></b><span>deepest corner of the example ride below</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ride gutter" id="ride">
+    <div class="inner">
+      <div class="intro">
+        <p class="eyebrow">Example ride</p>
+        <h2>A Sunday on the coast road.</h2>
+        <p>Start a ride, put the phone in its mount and ride. AROV keeps the speed, the line and every corner. When you stop, the summary is waiting: what the ride added up to, and the moments worth looking back at.</p>
+        <div class="stats">
+          <div><b>128 km</b><span>Distance</span></div>
+          <div><b>2 h 14 m</b><span>Riding</span></div>
+          <div><b>63</b><span>Corners</span></div>
+          <div><b>47°</b><span>Max lean</span></div>
+        </div>
+        <p class="note">An example of what a summary shows, not a real rider's ride.</p>
+      </div>
+      <ol class="moments">
+        <li><time>08:41</time><div><b>Onto the coast road</b><span>First corner past 30°</span></div></li>
+        <li class="hi"><time>09:17</time><div><b>47° right, a new record</b><span>Corner 38 of 63</span></div></li>
+        <li><time>09:52</time><div><b>Top speed, 112 km/h</b><span>On the straight after the bridge</span></div></li>
+        <li><time>10:02</time><div><b>Fuel stop</b><span>11.4 L, 4.6 L/100 km since the last fill</span></div></li>
+        <li><time>10:55</time><div><b>Home</b><span>The summary is ready</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="more gutter">
+    <div class="inner">
+      <p class="eyebrow">Around the ride</p>
+      <h2>The rest of riding, kept in one place.</h2>
+      <div class="grid">
+        <article class="feat">
+          <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div>
+          <h3>It asks before it records</h3>
+          <p>Rode off without pressing Ride? AROV notices a ride starting and asks once. It never records on its own.</p>
+        </article>
+        <article class="feat">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 10l8-5 8 5v9H4z"/><path d="M9 19v-5h6v5"/></svg></div>
+          <h3>A garage that counts</h3>
+          <p>Your bikes, fuel per tank and maintenance due by the kilometres you actually rode, with a reminder when a job falls due.</p>
+        </article>
+        <article class="feat">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M5 19c2-6 4-9 7-9s3 4 7-5"/><circle cx="5" cy="19" r="1.5"/><circle cx="19" cy="5" r="1.5"/></svg></div>
+          <h3>Routes for riders</h3>
+          <p>Plan a route that prefers twisty roads and skips motorways, then follow spoken directions with the phone in its mount.</p>
+        </article>
+        <article class="feat">
+          <div class="ic"><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><path d="M3 19c1-3 3-4 5-4s4 1 5 4M11 19c1-3 3-4 5-4s4 1 5 4"/></svg></div>
+          <h3>Ride with a crew</h3>
+          <p>Plan group rides, see where everyone is while you ride together, and see who leads and who sweeps.</p>
+        </article>
+        <article class="feat">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-6-6-6-11a6 6 0 0 1 12 0c0 5-6 11-6 11z"/><circle cx="12" cy="10" r="2"/></svg></div>
+          <h3>Notes on the road</h3>
+          <p>Leave a note where the gravel is or the view is worth stopping for, and read what other riders left.</p>
+        </article>
+        <article class="feat">
+          <div class="ic"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>Your home stays off the map</h3>
+          <p>Shared rides and live positions leave out the first and last 500 m, so nobody sees where you start and finish. AROV asks after each ride whether to share it, and the answer starts at no.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="gutter">
+  <div class="inner">
+    <span class="word">ARO<i>V</i></span>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+  </div>
+</footer>
+</body>
+</html>
